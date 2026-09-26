@@ -1,7 +1,6 @@
 aid: attabotics
 name: Attabotics
-description: 'Attabotics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Attabotics provides a uniquely space‑efficient goods‑to‑person storage and fulfillment platform, leveraging over 35 years of warehouse automation experience. Now part of LaFayette Systems since October 2025, Attabotics combines innovative technology with the financial stability and customer‑first culture of its new parent, delivering reliable, scalable solutions for modern material handling.'
 url: https://raw.githubusercontent.com/api-evangelist/attabotics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -11,7 +10,12 @@ specificationVersion: '0.20'
 created: '2026-09-26'
 modified: '2026-09-26'
 tags:
-- Company
+- Warehouse Automation
+- Robotics
+- Supply Chain
+- Technology
+- Innovation
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +23,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/attabotics-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/attabotics
+  url: https://attabotics.com
